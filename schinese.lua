@@ -117,10 +117,10 @@ pt.playerStatusDead="死亡"
 pt.ms=""
 pt.fs=""
 
-pt.endroundZombieGaveUp="幸存者胜利! 零号僵尸放弃了游戏"
+pt.endroundZombieGaveUp="幸存者胜利! 始源僵尸放弃了游戏"
 pt.endroundTraitorGaveUp="无辜者胜利! 叛徒放弃了游戏"
 pt.endroundMurdererGaveUp="围观者胜利! 杀手放弃了游戏"
-pt.endroundZombieQuit="幸存者胜利! 零号僵尸怒退了游戏"
+pt.endroundZombieQuit="幸存者胜利! 始源僵尸怒退了游戏"
 pt.endroundTraitorQuit="无辜者胜利! 叛徒怒退了游戏"
 pt.endroundSurvivorsWin="幸存者胜利!"
 pt.endroundInnocentsWin="无辜者胜利!"
@@ -136,7 +136,7 @@ pt.startHelpDMTitle="准备战斗"
 pt.startHelpDM={"战斗将在倒计时结束后开始。"}
 
 pt.startHelpSurvivorTitle="你是一个幸存者"
-pt.startHelpSurvivor={"杀死零号僵尸？逃跑？等待军方？"}
+pt.startHelpSurvivor={"杀死始源僵尸？逃跑？等待军方？"}
 
 pt.startHelpInnocentTitle="你是一个无辜者"
 pt.startHelpInnocent={
@@ -144,7 +144,7 @@ pt.startHelpInnocent={
 	"小心"
 }
 
-pt.startHelpZombieTitle="你是零号僵尸"
+pt.startHelpZombieTitle="你是始源僵尸"
 pt.startHelpZombie={
 	"Lead your zombie hordes",
 	"Consume the brains of the living"
@@ -170,7 +170,7 @@ pt.startHelpIngun={
 pt.roundDM="死亡竞赛 - 奖励回合"
 pt.roundDMDesc="经典的 “免费” 比赛。技能奖励增加。"
 pt.roundZS="僵尸病毒爆发模式"
-pt.roundZSDesc="僵尸感染已经爆发。活着的人必须对抗零号僵尸和他的眷属。"
+pt.roundZSDesc="僵尸感染已经爆发。活着的人必须对抗始源僵尸和他的眷属。"
 pt.roundSOE="紧急状态模式"
 pt.roundSOEDesc="当地社会在一场灾难后崩溃了，这个组织中有一个贪婪、凶残的叛徒。"
 pt.roundGFZ="无枪区模式"
@@ -188,7 +188,7 @@ pt.traitor="叛徒"
 pt.innocent="无辜者"
 pt.fighter="斗士"
 pt.survivor="幸存者"
-pt.zombie="零号僵尸"
+pt.zombie="始源僵尸"
 
 pt.ywbaInnocent="你在下一轮将是无辜者。"
 pt.ywbaBystander="你在下一轮将是围观者。"
@@ -209,31 +209,31 @@ pt.ammoAR2="7x57mm (7mm mauser)"
 pt.ammoXBowBolt="6x735mm broadhead hunting arrow"
 pt.ammoAirboatGun="2x89mm Carpentry Nail"
 
-pt.chest="Chest: "
-pt.head="Head: "
-pt.armorLevelIII="Level III"
-pt.armorLevelIIIA="Level IIIA"
+pt.chest="胸部: "
+pt.head="头部: "
+pt.armorLevelIII="等级 III"
+pt.armorLevelIIIA="等级 IIIA"
 
-pt.identityIncorrectLines="Homicide: incorrect number of lines in homicide_identity.txt! Need 10 lines"
-pt.appearanceTitle="Homicide Custom Appearance"
-pt.appearanceName="Name"
-pt.appearanceModel="Player Model"
-pt.appearanceUBodySize="Upper Body Size"
-pt.appearanceWaistSize="Waist Size"
-pt.appearanceLBodySize="Lower Body Size"
-pt.appearanceCColor="Clothing Color"
-pt.appearanceCStyle="Clothing Style"
-pt.appearanceAccessory="Accessory"
-pt.appearanceSet="SET IDENTITY"
+pt.identityIncorrectLines="Homicide: homicide_identity.txt 中的行数不正确！需要 10 行"
+pt.appearanceTitle="Homicide 自定义外观"
+pt.appearanceName="姓名"
+pt.appearanceModel="玩家模型"
+pt.appearanceUBodySize="上身尺寸"
+pt.appearanceWaistSize="腰围"
+pt.appearanceLBodySize="下身尺寸"
+pt.appearanceCColor="服装颜色"
+pt.appearanceCStyle="服装样式"
+pt.appearanceAccessory="附件"
+pt.appearanceSet="设置外观"
 
-pt.voiceDropEquipment="Drop Equipment"
-pt.voiceDropEquipmentDescription="drop worn items"
-pt.voiceDropAmmo="Drop Ammo"
-pt.voiceDropAmmoDescription="choose ammo to drop"
+pt.voiceDropEquipment="丢弃装备"
+pt.voiceDropEquipmentDescription="丢弃不要的(如损坏的)装备"
+pt.voiceDropAmmo="丢弃弹药"
+pt.voiceDropAmmoDescription="选择需要丢弃的弹药"
 
-pt.wrongfullyKilled="You have been wrongfully killed.\nYou may press F to forgive your attackers."
+pt.wrongfullyKilled="你被错误地杀死了。\n你可以按下 F 原谅这场意外的攻击者。"
 
-pt.youAreNoAdmin="You are not an admin."
+pt.youAreNoAdmin="你不是一个管理员。"
 
 pt.police="警察"
 pt.nationalguardsman="士兵"
@@ -292,11 +292,11 @@ pt.policeInSeconds="警察将在 {secs} 秒后到达。"
 pt.killedTeamKillInnocent="{player} 杀死了一个无辜者。"
 pt.killedTeamKillAggressive="{player} 杀死了一个麻烦制造者。"
 pt.killedDM="{player} 杀死了 {ded}"
-pt.killedZombie="{player} 杀死了零号僵尸"
+pt.killedZombie="{player} 杀死了始源僵尸"
 pt.killedTraitor="{player} 杀死了叛徒"
-pt.guardShotZombie="零号僵尸被国名护卫队射杀了。"
+pt.guardShotZombie="始源僵尸被国名护卫队射杀了。"
 pt.guardShotTraitor="叛徒被国名护卫队射杀了。"
-pt.policeShotMurderer="杀手被警察射杀了。."
+pt.policeShotMurderer="杀手被警察射杀了。"
 pt.traitorDeathUnknown="叛徒死于谜之意外。"
 
 pt.hardFrics={"t","f","p","s","ck","k"}
@@ -327,7 +327,7 @@ pt.winDM="{murderer} wins!"
 pt.tempBan=" has been temporarily banned for repeatedly attacking or killing innocents."
 pt.whyIsTheHostKillingPeopleOhNo=" can't be banned because is listen server host."
 
-pt.miscUnsupportedPM="WANRING: unsupported playermodel"
+pt.miscUnsupportedPM="WANRING: 不支持的玩家模型"
 pt.miscTKPenaltiesDisabled="\nWARNING: teamkill penalties are disabled!"
 pt.miscExplanation="Starting a recording in order to fix the stupid disappearing-viewmodel glitch. Take it up with Garry."
 pt.miscRDM1="Your guilt is at "
@@ -361,7 +361,7 @@ pt.tips={
 	"小刀在背刺时有额外伤害加成。",
 	"自制爆炸装置可以藏在物品里. 特定的物品在爆炸时会有特殊效果 (弹片, 着火等)。",
 	"物品会在地图各处生成，供旁观者使用。食品、武器、建筑材料等。",
-	"如果您的地图上没有物品, 请联系作者Jackarunda, 以便他研究和改进生成算法。",
+	"如果你的地图上没有物品, 请联系作者Jackarunda, 以便他研究和改进生成算法。",
 	"如果你经常出生在地图上的墙上, 请联系作者Jackarunda, 以便他可以研究并改进生成算法。",
 	"如果你的复活时卡在什么东西里，试着蹲伏（移动）或用拳头攻击。",
 	"受伤位置不同会有不同的效果。四肢受伤不会掉太多的血，但会有其他的负面效果。",
@@ -405,69 +405,69 @@ pt.tips={
 	"当你乱杀人时，你会累积罪恶。过多的罪恶会导致你在一轮开始时被击倒，或者在一轮结束时被 ban 。",
 	"应乱杀人被 ban 只会持续 1 分钟。仅仅用于防止立即重新加入。",
 	"即使你不乱杀人，多个回合中不停斗殴也会导致你受到惩罚。",
-	"就像针对袭击的法案一样，当你是普通公民时（围观者），你会因为乱杀人受到严厉的惩罚。",
+	"就像现实中有故意伤害罪，当你是普通公民时（围观者），你会因为乱杀人受到严厉的惩罚。",
 	"战利品只在没有玩家的地方生成。如果你想要战利品，在地图上四处移动，找到没有人的地方。（译者注：然而并不是）",
 	"警察会射杀凶手和任何其他手持武器的人，甚至是举起拳头的你。",
 	"国民护卫队会在叛徒和其他袭击无辜者的人在场时射杀他们。",
-	"重新加入服务器不会重置您的罪恶值。罪恶是根据 SteamID 存储的。",
+	"重新加入服务器不会重置你的罪恶值。罪恶是根据 SteamID 存储的。",
 	"启用 sv_cheats 将禁用乱杀人惩罚和反作弊功能（适用于乱搞或制作视频）。",
 	"凶手通常没有机会与枪手进行公开对抗。隐藏和狡猾是必要的。",
-	"您可以使用 identity.txt 文件自定义 Homicide 的名称和外观。有关详细信息，请键入 'homicide_identity_help'",
-	"Holding right-click with your fists blocks, reducing incoming punch damage.",
-	"We live in a lawful society with assault laws. RDMing is dealt with very harshly. Turn on sv_cheats to disable penalties.",
-	"Your RDM offenses are forgiven over time. Go an entire round without losing your innocence and you get bonus forgiveness.",
-	"The IED isn't terribly lethal on its own. Put it in something that'll fragment, like a metal container.",
-	"As the traitor/murderer, you start with more gear than bystanders. Don't give yourself away by showing it too early.",
-	"Just because someone has additional gear or items doesn't mean they're the murderer. Items can be found around the map all the time.",
-	"The curare poison can be applied to any bladed weapon. The first person struck with the poisoned weapon will die after a while.",
-	"The VX poison can be applied to any pick-up-able item. The first person who touches the poisoned item will die after a while.",
-	"The batrachotoxin needle can be used to quietly prick someone from behind. The poisoned person will die after a while.",
-	"The tetrodotoxin poison can be mixed into any food or drink lying around. Anyone who eats the item will die after a while.",
-	"The door wedge can be used to completely block a door from one side.",
-	"Can't jump high enough? Just chill for a minute. Let your stamina regenerate.",
-	"A basic understanding of aerobic stamina/fatigue is necessary to effectively flee from the murderer.",
+	"你可以使用 identity.txt 文件自定义 Homicide 的名称和外观。有关详细信息，请键入 'homicide_identity_help'",
+	"举起拳头时按住右键，可以格挡以减少他人的拳击伤害。",
+	"我们生活在一个法治社会，蓄意伤害他人是违法行为。乱杀人的处理非常严厉。如果不想被惩罚，请启用 sv_cheats。",
+	"随着时间推移，你乱杀人的行为会得到原谅。一整局保持清白，这个过程将会加速。",
+	"简易爆炸装置本身并不致命。把它放在金属容器里以造成三倍伤害。",
+	"作为叛徒/杀手，你在开局时会拥有更多物品。不要过早地暴露这件事（译者注：尤其是手电筒）。",
+	"发现某人有额外的装备或物品并不意味着他们就是凶手。在地图上可以随时找到这些物品。",
+	"箭毒素可用于任何带刃武器。第一个被有毒武器击中的人将在一段时间后死亡。",
+	"VX毒药可以应用于任何可拾取的物品。第一个接触中毒物品的人将在一段时间后死亡。",
+	"蟾毒素针（译者注：原文错误。应为河豚毒素针`Tetrodotoxin Needle`）可以用来从背后偷袭某人。中毒者过一会儿就会死。",
+	"河豚毒素（译者注：原文错误。应为氰化物胶囊`Cyanide Capsule`）可以混入任何食物或饮料中。任何吃了这个东西的人都会在一段时间后死去。",
+	"门楔可用于从一侧彻底挡住门。",
+	"跳跃高度太低了？休息一下。让你的耐力再生。",
+	"合理利用耐力能让你在逃离凶手时如虎添翼。",
 	-- "Your merit (kills, assists etc) are stored in the server's database, and used in your skill (SK) calculation.",
 	-- "Your demerits (deaths, teamkills etc) are stored in the server's database, and used in your skill (SK) calculation.",
 	-- "The total time you've been alive during gameplay is stored in the server's database, and used in your experience (XP) calculation.",
-	"State-of-Emergency mode can be forced on or off with the console command 'homicide_setmode 1/0'",
-	"If a mass murderer gets loose in a gun-free zone, you'd better run or hide and hope the cops double-time it.",
-	"Localized chaos can break out after natural disasters, especially in 2nd and 3rd world countries. This is a state of emergency.",
-	"Gun-Free-Zone mode is similar to a hunt or a deadly game of hide-and-seek.",
-	"Some State-of-Emergency rounds will be Bonus Deathmatch rounds, where it's a classic free-for-all gunfight with increased rewards.",
-	"Wild-West mode is where everyone has a gun, even the murderer.",
-	"In Jihad Mode, a suicidal lunatic is trying to blow everyone up.",
-	"The longer you spin the grappling hook, the further you will throw it.",
-	"The grappling hook must come to rest upon something in order to anchor. Listen for the anchoring sound before climbing the rope.",
-	"If you rapel down from somewhere using a grappling hook, you'll have to leave it behind.",
-	"The grappling hook's rope does not have collision or hang around corners. This is simply a limitation of GMod.",
-	"Pull the grappling hook's rope taut in mid-flight to get it to land where you want.",
-	"If you spawn stuck in something, aim where you want to go and use the *unstick chat command. You only get one try per round.",
-	"The *unstick chat command can get you free from being stuck in the map. You can only do it once per round, though.",
-	"People can hide inside large containers by pressing RMB+E. Deadly prophunt.",
-	"While hiding inside an object, you can nudge the object in different directions with WASD.",
-	"The Zyklon-B poison gas canister will contaminate an area for about 4 minutes.",
-	"Poison gas is less deadly in wide open spaces and more deadly in small enclosed spaces.",
-	"Poison gas will expand to fill rooms and will flow down hallways. Closing doors is a good way to contain the gas.",
-	"The poison gas canister can easily poison the murderer if he isn't careful to avoid the area he placed it in.",
-	"Pro-tip: hide the poison gas canister where it won't be found, like behind furniture. The gas will fill the room all the same.",
-	"The murderer can silence his own footsteps by holding ALT.",
-	"Don't use your scroll wheel to change weapons, noob, use your number keys.",
-	"Your number keys change weapons much faster than your scrollwheel. Learn to play computer games.",
-	"As an alpha zombie, you can order the other zombies to charge a location or to return to you.",
-	"As an alpha zombie, you can smell the living. Your vision becomes more red as you close on your nearest target.",
-	"As an alpha zombie, use other zombies as meatshields. The round ends if you are destroyed.",
-	"Travel light. Everything you carry slows you down.",
-	"Bad people are generally at greater risk of bad things happen to them. No rest for the wicked.",
-	"You can specify your custom identity easily using the identity UI console command: homicide_appearance_menu",
-	"Be the coolest kid on the block by using the concommand homicide_appearance_menu to set a custom identity.",
-	"Custom identities (clothes, accessory, playermodel, color etc) can be set by using the concommand homicide_appearance_menu.",
-	"If you don't set a custom identity with the concommand homicide_appearance_menu, you will be assigned a random identity every round.",
-	"As the alpha zombie, your vision turns more red when you look in the direction of the living.",
-	"If you ever spawn stuck in something, or get stuck in something, look where you want to go and type *unstick in chat.",
-	"If you are killed unjustly but you ain't even mad, you can press F shortly after dying to forgive your attackers (prevent them from gaining guilt).",
-	"If you are wrongfully killed and mad about it, don't press F after dying. Let your attackers gain guilt and eventually be kicked.",
-	"Pressing F shortly after death will forgive your attackers, if you were wrongfully killed. This will prevent them from gaining guilt.",
-	"If your friend accidentally kills you wrongfully, press F after death to forgive him and prevent him from gaining guilt."
+	"可以使用控制台命令`homicide_setmode 1/0`强制打开或关闭紧急状态模式",
+	"如果一个连环杀人犯在无枪区逃亡，你最好逃跑或躲藏起来，希望警察加倍努力。",
+	"自然灾害后，特别是在第二和第三世界国家，局部混乱可能会爆发。这是紧急状态（译者注：也就是叛徒模式）。",
+	"无枪区模式是杀手的狩猎时刻，一场赌上生命的捉迷藏游戏。",
+	"一些紧急状态回合将是奖励死亡比赛回合，这是一场经典的免费枪战，奖励增加。",
+	"狂野西部模式是每个人都有枪的地方，凶手亦然。",
+	"在圣战模式下，一个有自杀倾向的疯子试图把所有人都炸死。",
+	"你旋转抓钩的时间越长，你将把它扔得越远。",
+	"抓钩必须靠在某物上才能固定。在攀爬绳索之前，先听听锚定的声音。",
+	"抓钩不会自动回收，当你从绳索上跳下时，抓钩会留在原地。",
+	"抓钩的绳索没有碰撞体积，也无法挂在角落。这只是 GMod 的一个限制。",
+	"在飞行中拉紧抓钩的绳索，以此降落在你想要的地方。",
+	"如果你在出生时卡住，瞄准空地，然后使用 *unstick 聊天命令。你每轮只能使用一次该命令。",
+	"*unstick 聊天命令可以让你从卡在地图中的困境中解脱出来。不过，每轮只能使用一次。",
+	"你可以通过右键+E隐藏在大型容器中。把游戏变成一个亡命躲猫猫。",
+	"当隐藏在容器内部时，可以使用 WASD 在不同方向上轻推容器。",
+	"Zyklon-B 毒气罐（氰化物罐）将污染一个区域约 4 分钟。",
+	"有毒气体在开阔的空间中不那么致命，而在狭小的封闭空间中更致命。",
+	"毒气会膨胀到房间里，然后顺着走廊流下来。关门是控制气体的好方法。",
+	"如果凶手没有小心地避开放置氰化物罐的区域，氰化物罐很容易毒死凶手。",
+	"进阶提示：把氰化物罐藏在找不到的地方，比如藏在家具后面。气体会充满整个房间。",
+	"凶手可以按住 ALT 静步移动",
+	"菜鸟才用滚轮切换武器，高手都是用数字键。",
+	"使用数字键切换武器要比使用滚轮快得多。",
+	"作为一个始源僵尸，你可以命令其他僵尸向一个地点冲锋或回到你的身边。",
+	"作为一个始源僵尸，你可以闻到生命体的味道。当你靠近最近的目标时，你的视野会变得更红。",
+	"作为始源僵尸，你需要使用其他僵尸作为肉盾。如果你被击杀，这一回合就结束了。",
+	"保持轻装。你携带的东西越多，移动速度越慢。",
+	"坏人往往遭遇更多厄运，命运会把他们推向灭亡。",
+	"你可以通过控制台指令 homicide_appearance_menu 自定义你的外貌。",
+	"通过使用命令 homicide_appearance_menu 设置自定义外貌。成为街区中最酷的孩子。",
+	"可以使用控制台命令 homicide_appearance_menu 设置自定义外貌（衣服、配饰、玩家模型、颜色等）。",
+	"如果不使用控制台命令 homicide_appearance_menu 设置自定义外貌，则每一轮都会为你分配一个随机外貌。",
+	"作为始源僵尸，当你朝着活人的方向看时，你的视线会变得更红。",
+	"如果你卡在了地图里，看着你想去的地方，在聊天框中输入 *unstick。",
+	"如果你被不公正地杀害，但你没有生气，你可以在死后不久按 F ，原谅攻击者（防止他们获得罪恶值）。",
+	"如果你被不公正地杀害并为此感到愤怒，死后不要按 F 。让攻击者获得罪恶值，最终被踢。",
+	"如果你被错误地杀死，死后不久按下 F 键可以原谅攻击者。这将防止他们获得罪恶值。",
+	"如果你的朋友不小心误杀了你，你可以死后按 F 键原谅他，防止他获得罪恶值。"
 }
 
 pt.weaponAdrenaline="肾上腺素自动注射器"
@@ -509,7 +509,7 @@ pt.weaponHammer="木工锤"
 pt.weaponHammerDesc="这是一个典型的木工锤。用它来钉东西和建造建筑物。你也可以用它攻击。\n\n左键攻击。\n右键钉钉子。\n只能钉一个与另一个表面紧密重叠的薄软材质物品。\n钉子比胶带结实。"
 pt.weaponHammerNailsNeeded="至少需要3个钉子来密封门。"
 
-pt.weaponHandsDesc="这是你的手。按您认为合适的方式使用它们。保护自己、攻击他人、移动物体等。\n\n左键握紧拳头。\n(默认)R键放下拳头。\n当放下拳头时, 按右键拿东西。\n当举起拳头时, 按右键格挡。"
+pt.weaponHandsDesc="这是你的手。按你认为合适的方式使用它们。保护自己、攻击他人、移动物体等。\n\n左键握紧拳头。\n(默认)R键放下拳头。\n当放下拳头时, 按右键拿东西。\n当举起拳头时, 按右键格挡。"
 
 pt.weaponHatchet="短柄斧"
 pt.weaponHatchetDesc="这是一把小型实用斧，大小和重量与战斧相似。把它扔向你的敌人，很有可能造成很大的伤害。\n\n左键投掷。"
@@ -527,7 +527,7 @@ pt.weaponJihad="爆炸背心"
 pt.weaponJihadDesc="这是一个藏有军用级炸药，钉子，弹丸，雷管的背心。用它结束你可悲的一生，和一切说再见。\n\n左键使用, 自杀。"
 
 pt.weaponKnife="SOG M37 海豹军刀"
-pt.weaponKnifeDesc="这是您值得信赖的碳钢固定刀片刀。用它来夺走无辜者的生命。\n\n左键刺击\n背刺造成额外伤害"
+pt.weaponKnifeDesc="这是你值得信赖的碳钢固定刀片刀。用它来夺走无辜者的生命。\n\n左键刺击\n背刺造成额外伤害"
 
 pt.weaponMask="惊悚面具"
 pt.weaponMaskDesc="带上它隐藏你的真实身份（可能会让人感到害怕）。防止在谋杀中被认出。\n左键装备\n右键脱下"
@@ -557,7 +557,7 @@ pt.weaponPipeBombDesc="这个简易爆炸装置是一根重规格的钢管，里
 pt.weaponpistol="贝瑞塔 PX4-风暴"
 pt.weaponsmallpistol=pt.weaponpistol
 pt.weaponpistolDesc="这是你值得信赖的9x19毫米手枪。\n\n左键开火。\n右键瞄准。\n(默认)R键换弹\n根据中弹位置产生不同的效果。\n蹲伏增加稳定性。\n子弹可以反弹和穿透。"
-pt.weaponsmallpistolDesc="这是您值得信赖的9x19mm隐蔽携带手枪, 配有轻便的低容量弹匣。用它来保护围观者的生命。\n\n左键开火。\n右键瞄准。\n(默认)R键换弹\n根据中弹位置产生不同的效果。\n蹲伏增加稳定性。\n子弹可以反弹和穿透。"
+pt.weaponsmallpistolDesc="这是你值得信赖的9x19mm隐蔽携带手枪, 配有轻便的低容量弹匣。用它来保护围观者的生命。\n\n左键开火。\n右键瞄准。\n(默认)R键换弹\n根据中弹位置产生不同的效果。\n蹲伏增加稳定性。\n子弹可以反弹和穿透。"
 
 pt.weaponPocketKnife="CRKT M16-13Z"
 pt.weaponPocketKnifeDesc="这是一把碳钢安全衬垫锁折叠小刀。在你认为合适的时候使用它来进攻或防守(并不能防守)。\n\n左键挥砍。"
